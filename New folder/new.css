@@ -1,0 +1,149 @@
+/* Body Css */
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courgette', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Main Container Css */
+.container{
+    height: 670px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+/* Sub-Container Css */
+.sub_container{
+    height: 610px;
+    width: 430px;
+    /* border: 2px solid black; */
+    margin-left: 35px;
+}
+
+/* Header Box*/
+.header_box h1{
+    margin-left: 25px;
+    font-size: 35px;
+}
+.header_box p{
+    font-size: 17.5px;
+    margin-left: 25px;
+}
+
+/* Second Box(Design and Project) */
+.second_box{
+    height: 120px;
+    width: 400px;
+    /* border: 2px solid black; */
+    margin-left: 25px;
+    
+}
+.second_box h3,p{
+    color: grey;
+}
+.second_box .box1{
+    height: 55px;
+    width:390px;
+    /* border: 2px solid black; */
+    display: flex;   
+}
+.second_box .design_box{
+    height: 50px;
+    width: 150px;
+    border: 2px solid grey;
+    background-color: white;
+    border-radius: 5px;
+}
+.second_box .project_box{
+    height: 50px;
+    width: 150px;
+    border: 2px solid grey;
+    margin-left: 65px;
+    background-color: white;
+    border-radius: 5px;
+}
+.box1 a{
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+}
+.project_box:hover{
+    
+    border-color: blue;
+}
+.design_box:hover{
+    border-color: blue;
+}
+.box1 a:hover{
+    color: blue;
+}
+
+/* Third Box / Details Box */
+.third_box{
+    
+    height: 280px;
+    width: 400px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.third_box h3{
+    color: grey;
+    font-size: 17px;
+}
+.third_box input{
+    height: 30px;
+    width: 360px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.third_box input:hover{
+    border-color: blue;
+}
+.phone_number_box{
+    height: 30px;
+    width: 365px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.phone_number_box:hover{
+    border-color: blue;
+}
+
+/* Button CSS */
+.button{
+    margin-left: 25px;
+    width: 365px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 5px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin-top: 15px;
+}
+svg{
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    color: white;
+    margin-left: 10px;
+}
+
+
+i{
+    height: 20px;
+    width: 20px;
+    color: blue;
+}
